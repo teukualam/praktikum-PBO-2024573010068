@@ -14,7 +14,7 @@ public class Magazine extends LibraryItem {
 
     @Override
     public void displayInfo() {
-        System.out.println("-------- MAJALAH --------");
+        System.out.println("---------- MAJALAH ----------");
         System.out.println("ID: " + itemId);
         System.out.println("Judul: " + title);
         System.out.println("Penerbit: " + publisher);
@@ -22,7 +22,7 @@ public class Magazine extends LibraryItem {
         System.out.println("Edisi: " + issueNumber);
         System.out.println("Kategori: " + category);
         System.out.println("Status: " + (isAvailable ? "Tersedia" : "Dipinjam"));
-        System.out.println("------------------------------");
+        System.out.println("-----------------------------");
     }
 
     // Method khusus Magazine

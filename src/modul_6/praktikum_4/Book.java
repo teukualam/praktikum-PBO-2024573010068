@@ -14,8 +14,7 @@ public class Book extends LibraryItem {
 
     @Override
     public void displayInfo() {
-        System.out.println("BUKU");
-        System.out.println("------------------------------");
+        System.out.println("---------- BUKU ----------");
         System.out.println("ID: " + itemId);
         System.out.println("Judul: " + title);
         System.out.println("Penulis: " + author);
@@ -23,7 +22,7 @@ public class Book extends LibraryItem {
         System.out.println("ISBN: " + isbn);
         System.out.println("Jumlah Halaman: " + numberOfPages);
         System.out.println("Status: " + (isAvailable ? "Tersedia" : "Dipinjam"));
-        System.out.println("------------------------------");
+        System.out.println("--------------------------");
     }
 
     // Method khusus Book
@@ -31,4 +30,3 @@ public class Book extends LibraryItem {
         System.out.println("Membaca sample dari buku: " + title);
     }
 }
-
